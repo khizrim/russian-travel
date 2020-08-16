@@ -5,6 +5,12 @@
   min-width: 768px;
 }
 
+@media only screen and (max-width: 918px) {
+  .lead__image {
+    min-width: auto;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .lead__image {
     max-width: 100%;
