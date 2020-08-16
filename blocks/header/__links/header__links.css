@@ -1,0 +1,15 @@
+.header__links {
+  display: flex;
+  align-items: flex-end;
+  transform: translate(0px, -5px);
+  -webkit-transform: translate(0px, -5px);
+  -moz-transform: translate(0px, -5px);
+  -ms-transform: translate(0px, -5px);
+  -o-transform: translate(0px, -5px);
+}
+
+@media only screen and (max-width: 425px) {
+  .header__links {
+    min-height: 100%;
+  }
+}
