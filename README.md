@@ -5,3 +5,6 @@
 
 ## Технологии
 Сайт написан полностью на HTML и CSS без использования JavaScript. Верстка адаптированна под все основные разрешения.
+
+## Проект на Github Pages
+https://khizrim.github.io/russian-travel/
