@@ -6,6 +6,10 @@
   -moz-transform: translate(0px, -5px);
   -ms-transform: translate(0px, -5px);
   -o-transform: translate(0px, -5px);
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
 }
 
 @media only screen and (max-width: 425px) {

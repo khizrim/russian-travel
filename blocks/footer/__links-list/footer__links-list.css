@@ -6,7 +6,7 @@
   padding-bottom: 24px;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 767px) {
   .footer__links-list {
     flex-direction: column;
     padding-bottom: 48px;
