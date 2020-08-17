@@ -1,18 +1,21 @@
 .places {
-  display: grid;
   max-width: 984px;
   margin: auto;
-  padding-top: 18px;
+  padding-top: 12px;
+  padding-bottom: 92px;
+  display: grid;
 }
 
-@media only screen and (max-width: 1078px) {
+@media only screen and (max-width: 918px) {
   .places {
-    margin: 0 24px;
+    padding-top: 16px;
+    padding-bottom: 88px;
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 475px) {
   .places {
-    margin: auto;
+    padding-top: 16px;
+    padding-bottom: 64px;
   }
 }

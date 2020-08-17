@@ -1,19 +1,12 @@
 .header__links {
   display: flex;
   align-items: flex-end;
-  transform: translate(0px, -5px);
-  -webkit-transform: translate(0px, -5px);
-  -moz-transform: translate(0px, -5px);
-  -ms-transform: translate(0px, -5px);
-  -o-transform: translate(0px, -5px);
   list-style: none;
-  display: flex;
-  padding: 0;
   margin: 0;
-}
-
-@media only screen and (max-width: 425px) {
-  .header__links {
-    min-height: 100%;
-  }
+  padding: 0;
+  transform: translate(0, -8px);
+  -webkit-transform: translate(0, -8px);
+  -moz-transform: translate(0, -8px);
+  -ms-transform: translate(0, -8px);
+  -o-transform: translate(0, -8px);
 }

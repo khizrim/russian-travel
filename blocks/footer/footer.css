@@ -1,25 +1,27 @@
 .footer {
+  margin: auto;
+  padding: 92px 0 24px;
+  max-width: 92.5%;
   display: flex;
   justify-content: space-between;
-  max-width: 92.5%;
-  margin: auto;
-}
-
-@media only screen and (max-width: 1078px) {
-  .footer {
-    margin: 0 48px;
-  }
+  align-items: baseline;
 }
 
 @media only screen and (max-width: 918px) {
   .footer {
-    margin: 0 24px;
+    padding-top: 88px;
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 767px) {
+  .footer {
+    padding-top: 88px;
+  }
+}
+
+@media only screen and (max-width: 475px) {
   .footer {
     flex-direction: column;
-    margin: 0 16px;
+    padding-top: 64px;
   }
 }
