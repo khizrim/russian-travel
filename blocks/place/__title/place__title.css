@@ -14,11 +14,7 @@
   }
 }
 
-<<<<<<< HEAD
 @media only screen and (max-width: 767px) {
-=======
-@media only screen and (max-width: px) {
->>>>>>> d7983630a9ef2cbfbf9df8faff00ae33270fef30
   .place__title {
     font-size: 36px;
     line-height: 40px;
@@ -29,10 +25,7 @@
   .place__title {
     font-size: 32px;
     line-height: 35px;
-<<<<<<< HEAD
   }
-=======
->>>>>>> d7983630a9ef2cbfbf9df8faff00ae33270fef30
 }
 
 @media only screen and (max-width: 425px) {
