@@ -7,12 +7,6 @@
 
 @media only screen and (max-width: 1078px) {
   .places {
-    margin: 0 48px;
-  }
-}
-
-@media only screen and (max-width: 918px) {
-  .photo-grid {
     margin: 0 24px;
   }
 }
