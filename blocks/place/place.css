@@ -1,4 +1,5 @@
 .place {
+  padding-top: 80px;
   display: grid;
   grid-template-columns: 460px 1fr;
   column-gap: 40px;
@@ -15,12 +16,12 @@
 
 @media only screen and (max-width: 918px) {
   .place {
+    padding-top: 72px;
     grid-template-columns: 340px 1fr;
     column-gap: 28px;
     row-gap: 48px;
   }
 }
-
 
 @media only screen and (max-width: 767px) {
   .place {
@@ -28,9 +29,10 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 475px) {
   .place {
+    padding-top: 48px;
     grid-template-columns: 100%;
-    row-gap: 32px;
+    row-gap: 48px;
   }
 }

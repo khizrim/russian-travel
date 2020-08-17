@@ -1,6 +1,6 @@
 .cover__link {
-  width: 100%;
   position: absolute;
+  width: 100%;
   top: 0;
   left: 0;
   bottom: 0;
@@ -23,14 +23,13 @@
   right: 0;
   opacity: 0.3;
   z-index: 0;
+  transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
 }
 
 .cover__link:hover::before {
   opacity: 0.8;
-}
-
-@media only screen and (max-width: 425px) {
-  .cover__link {
-    margin: auto;
-  }
 }

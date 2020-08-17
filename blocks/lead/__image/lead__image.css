@@ -1,8 +1,14 @@
 .lead__image {
-  object-fit: contain;
-  padding-top: 64px;
-  max-width: 100%;
   min-width: 768px;
+  width: 100%;
+  padding-top: 64px;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 1078px) {
+  .lead__image {
+    padding-top: 56px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -11,7 +17,7 @@
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 475px) {
   .lead__image {
     max-width: 100%;
     padding-top: 40px;

@@ -1,26 +1,19 @@
 .intro {
   max-width: 984px;
-  padding-top: 96px;
   margin: auto;
+  padding-top: 92px;
   display: flex;
   flex-direction: column;
 }
 
-@media only screen and (max-width: 1078px) {
-  .intro {
-    margin: 0 48px;
-  }
-}
-
 @media only screen and (max-width: 918px) {
   .intro {
-    margin: 0 24px;
+    padding-top: 88px;
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 475px) {
   .intro {
-    margin: 0 16px;
     padding-top: 64px;
   }
 }

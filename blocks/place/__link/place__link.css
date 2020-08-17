@@ -1,15 +1,24 @@
 .place__link {
-  padding-top: 12px;
   margin: 0;
+  padding-top: 12px;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
-  color: #fff;
   -moz-text-decoration-line: underline;
   transform: translate(0, -3px);
+  -webkit-transform: translate(0, -3px);
+  -moz-transform: translate(0, -3px);
+  -ms-transform: translate(0, -3px);
+  -o-transform: translate(0, -3px);
+  transition: opacity 0.2s ease-in-out;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  color: #fff;
 }
 
 .place__link:hover {
-  opacity: 0.8;
+  opacity: 0.6;
 }
