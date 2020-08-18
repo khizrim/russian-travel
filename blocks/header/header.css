@@ -5,7 +5,6 @@
   min-width: 288px;
   padding-top: 28px;
   margin: auto;
-  max-height: 52px;
 }
 
 @media only screen and (max-width: 918px) {
@@ -16,7 +15,6 @@
 
 @media only screen and (max-width: 475px) {
   .header {
-    max-height: 42px;
     padding-top: 16px;
   }
 }
